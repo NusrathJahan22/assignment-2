@@ -1,0 +1,145 @@
+*{
+    box-sizing: border-box;
+}
+.nav{
+    background-color: azure;
+}
+    .nav-container{
+    
+    min-height: 50px;
+    display: flex;
+    align-items: center;
+    max-width: 1300px;
+    margin: 0 auto;
+    
+
+}
+.logo-container{
+
+display: flex;
+width: 50%;
+}
+.logo-container img{
+    width: 300px;
+    object-fit: cover;
+    margin-right: 20px;
+}
+.logo-container p{
+    font-size: 40px;
+    
+}
+.nav-item-container{
+
+width: 50%;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.nav-item-container a{
+    text-decoration: none;
+}
+
+
+
+.nav-title{
+    color: palevioletred;
+}
+.follow-btn{
+    background-color: gainsboro;
+    padding: 20px;
+}
+.banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.online-game-text {
+    text-align: center;
+    
+}
+.div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+}
+.div :hover{
+    border: 5px solid palegreen;
+
+}
+.online-game h1{
+font-size: 50px;
+}
+
+
+.banner-text1{
+    /* font-size: 10px; */
+    font-weight: 500;
+}
+.banner-text2{
+    font-size: 100px;
+    color: coral;
+}
+.btn1{
+    background-color: aqua;
+    padding: 20px;
+    border-radius: 30px;
+}
+.btn2{
+    background-color: tomato;
+    padding: 20px;
+    border-radius: 30px;
+}
+.online-game{
+    text-align: center;
+    justify-content: center;
+}
+img{
+    margin-left: 20px;
+}
+.play-game{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 50px;
+}
+.box1{
+    font-size: 35px;
+}
+.box2{
+    position: relative;
+}
+.box3{
+    position: absolute;
+    bottom:0px;
+    left: 0px;
+}
+.item{
+    display: flex;
+    gap: 20px;
+    border-radius: 35px;
+    background-color: azure;
+    width: 60%;
+    justify-content: center;
+    align-items: center;
+}
+.item :hover {
+color: aqua;
+
+}
+.game2{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    margin: 50px auto;
+       justify-content:center;
+       align-items: center;
+width: 70%;
+    
+}
+.game2 :hover {
+    border: 4px solid crimson;
+
+
+}

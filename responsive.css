@@ -1,0 +1,41 @@
+@media screen and (max-width: 576px) {
+    .nav-container{
+        flex-direction: column;
+    }
+    .nav-item-container{
+        flex-direction: column;
+        gap: 20px;
+
+    }
+    .follow-btn{
+        padding: 5px;
+    }
+    .nav-item-container a{
+        margin-top: 20px;
+    }
+    .banner{
+        flex-direction: column;
+    }
+    .div-img1{
+        width: auto;
+
+    }
+    .btn1,.btn2{
+        flex-direction: column;
+    }
+    .div{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .play-game{
+        flex-direction: column;
+    }
+    .box2{
+        width: 100%;
+    }
+    .item{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+    }
+
+}
