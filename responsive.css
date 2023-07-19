@@ -31,11 +31,15 @@
         flex-direction: column;
     }
     .box2{
-        width: 100%;
+        width: 50%;
     }
     .item{
-        display: grid;
-        grid-template-columns: repeat(3,1fr);
+        flex-wrap: wrap;
+        
+        
+    }
+    .last-img,.last-text,.class,.Policy{
+        flex-direction: column;
     }
 
 }
